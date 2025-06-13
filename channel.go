@@ -14,7 +14,7 @@ func sum(s []int, c chan int) {
 	c <- sum                          // send sum to c
 }
 
-func main() {
+func main_2() {
 	s := []int{7, 2, 8, -9, 4, 0}
 
 	c := make(chan int)

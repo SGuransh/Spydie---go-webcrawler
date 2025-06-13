@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-func main() {
+func main_3() {
 	url := "https://medium.com/@datajournal/parse-html-in-golang-83c882576a0a"
 	resp, err := http.Get(url)
 	if err != nil {
