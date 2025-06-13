@@ -11,7 +11,7 @@ func printSomething(s string, wg *sync.WaitGroup) {
 	fmt.Println(s)
 }
 
-func main() {
+func main_4() {
 	var wg sync.WaitGroup
 	wg.Add(4) // Add 4 to the WaitGroup counter
 
